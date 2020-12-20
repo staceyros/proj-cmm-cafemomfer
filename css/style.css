@@ -35,11 +35,12 @@ h3 {
   text-shadow: 4px 4px 8px #000000;
   margin: 2rem 0rem;
 }
-/* Utilities */
 
 .hamburger-menu-wrap {
   display: none;
 }
+
+/* Utilities */
 
 .button {
   display: inline-block;
@@ -52,11 +53,21 @@ h3 {
   font-weight: 500;
   font-size: 3rem;
   box-shadow: 2px 4px 4px var(--dark-color);
-  transition: font-size 0.1s;
+  transition: all 0.4s ease;
 }
 
 .button:hover {
   font-size: 3.5rem;
+}
+
+.heading {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+  color: var(--orangy);
+  text-align: center;
+  text-shadow: 4px 4px 8px #000000;
+  margin: 2rem 0rem;
 }
 
 /* Nav */
@@ -75,7 +86,7 @@ h3 {
 .main-nav a {
   color: var(--orangy);
   font-size: 1.5rem;
-  padding: 0 20px;
+  padding: 0 18px;
 }
 
 .main-nav ul {
@@ -314,11 +325,208 @@ h3 {
   display: flex;
   align-items: center;
   background-color: var(--red-dark);
+  border: 10px solid var(--red-dark);
 }
 
 .menu-item6 img {
   width: 100%;
   border: 10px solid var(--red-dark);
+}
+
+/* News */
+
+.news-main {
+  margin-top: 62px;
+  background-image: linear-gradient(var(--dark-color), var(--grey));
+}
+
+.news-article {
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  margin: auto;
+}
+
+.news-article img {
+  width: 40%;
+  padding: 1rem;
+}
+
+.news-article p {
+  text-align: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: var(--orangy);
+  font-family: "Open Sans", sans-serif;
+  padding: 2rem;
+}
+
+/* Contact */
+
+.contact {
+  margin-top: 62px;
+  background-image: linear-gradient(var(--dark-color), var(--grey));
+}
+
+.contact h2 {
+  font-family: "lobster", cursive;
+  font-size: 8rem;
+  color: var(--orangy);
+  text-align: center;
+  text-shadow: 4px 4px 8px #000000;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--orangy);
+  font-family: "Open Sans", sans-serif;
+  padding: 6rem;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.contact-content {
+  width: 50%;
+}
+
+.contact-content a {
+  font-size: 1.6rem;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-content p {
+  text-align: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: var(--orangy);
+  font-family: "Open Sans", sans-serif;
+  padding: 6rem 4rem;
+}
+
+.contact-content-1,
+.contact-content-2 {
+  text-shadow: 1px 1px 4px #000000;
+}
+
+.contact-content-1 {
+  background-image: linear-gradient(var(--dark-color), var(--grey));
+}
+
+.contact-content-2,
+.contact-content-3 {
+  background: var(--dark-color);
+}
+
+.contact-content-3 p {
+  margin: 6rem;
+}
+
+.contact-content-4 {
+  border: 8px solid var(--grey);
+}
+
+.contact-content-4 a {
+  font-size: 2rem;
+  padding: 6rem 4rem;
+}
+
+.contact-socials {
+  width: 100vw;
+  height: 270px;
+  background-image: linear-gradient(var(--bordeaux), var(--red-dark));
+}
+
+.contact-socials .button:hover {
+  font-size: 3rem;
+  color: var(--dark-color);
+  background: var(--orangy);
+}
+
+.contact-socials-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-socials-buttons a {
+  margin: 3rem;
+}
+
+/* Covid-19 */
+
+.covid19 {
+  margin-top: 62px;
+  background-image: linear-gradient(var(--dark-color), var(--grey));
+}
+
+.covid19 h2 {
+  font-family: "lobster", cursive;
+  font-size: 8rem;
+  color: var(--orangy);
+  text-align: center;
+  text-shadow: 4px 4px 8px #000000;
+}
+
+.covid19 p {
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--orangy);
+  font-family: "Open Sans", sans-serif;
+  padding: 6rem 4rem;
+}
+
+.covid-policy {
+  background: var(--dark-color);
+  border-radius: 8px;
+  text-align: left;
+  font-size: 1.6rem;
+  color: var(--orangy);
+  font-family: "Open Sans", sans-serif;
+  text-shadow: 1px 1px 4px #000000;
+  padding: 6rem 4rem;
+  margin: 0vw 20vw;
+}
+
+.covid-policy a {
+  font-size: 1.6rem;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-shadow: 1px 1px 4px #000000;
+}
+
+.covid-policy .button {
+  display: inline-block;
+  border: none;
+  background: var(--orangy);
+  color: var(--dark-color);
+  padding: 1.5rem 2.5rem;
+  margin-right: 2rem;
+  border: 4px solid var(--orangy);
+  border-radius: 10px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  text-shadow: none;
+  box-shadow: 2px 4px 4px #000000;
+  transition: font-size 0.1s;
+}
+
+.covid-policy .button:hover {
+  background-color: var(--dark-color);
+  color: var(--orangy);
+}
+
+/* .covid-policy .button:hover {
+  font-size: 3.5rem;
+} */
+
+.webshop {
+  margin-top: 62px;
 }
 
 /* Footer */

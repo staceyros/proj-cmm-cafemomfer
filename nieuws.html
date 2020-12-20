@@ -21,8 +21,46 @@
       media="screen and (max-width: 1024px)"
       href="css/mobile.css"
     />
+    <link rel="stylesheet" href="css/menu.css" />
   </head>
   <body>
+    <!--Hamburger menu-->
+    <div class="hamburger-menu-wrap">
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="nieuws.html">Nieuws</a></li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1WG3PXPMnQaCkfyw_FdsMcOnqknGAHD-O/view?usp=sharing"
+                  target="_blank"
+                  >Eten</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1wq8uRe6ZG0K9h-sEi9Kdtm-ClIg9o_ak/view?usp=sharing"
+                  target="_blank"
+                  >Drinken</a
+                >
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="covid19.html">Covid-19</a></li>
+              <li>
+                <a href="webshop.html"
+                  >Webshop <i class="fas fa-shopping-cart fa-1x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header with navbar -->
     <header>
       <nav id="top" class="main-nav">
         <a href="index.html">
@@ -31,8 +69,14 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="nieuws.html">Nieuws</a></li>
-          <li><a href="eten.html">Eten</a></li>
-          <li><a href="drinken.html">Drinken</a></li>
+          <li><a
+            href="https://drive.google.com/file/d/1WG3PXPMnQaCkfyw_FdsMcOnqknGAHD-O/view?usp=sharing"
+            target="_blank"
+            >Eten</a></li>
+          <li><a
+            href="https://drive.google.com/file/d/1wq8uRe6ZG0K9h-sEi9Kdtm-ClIg9o_ak/view?usp=sharing"
+            target="_blank"
+            >Drinken</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="covid19.html">Covid-19</a></li>
           <li>
@@ -42,8 +86,17 @@
           </li>
         </ul>
       </nav>
-      <section class="content">
+      <!-- <section class="content">
           <img id="under-construction" src="/img/under-construction.png" alt="">
+      </section> -->
+      <section class="news-main">
+        <div class="news-article">
+          <img src="/img/news_20201220.jpg" alt="">
+          <div class="news-text">
+            <h3>De laatste kerstinkopen</h3>
+            <p>Café Momfer de Mol is momenteel enkel geopend als bierspeciaalzaak en voor afhaalmaaltijden. Zoek je nog kerstkado's of heb je gewoon zin om met een mooi biertje voor de TV weg te zakken? Dan ben je bij ons op het juiste adres! Wij zijn vooralsnog op donderdag en vrijdag open van 15:00 tot 19:00, zaterdag en zondag zijn wij geopend van 13:00 tot 19:00. Tot snel (en vergeet je mondkapje niet)!</p>
+          </div>
+        </div>
       </section>
       <section class="portraits">
         <img src="/img/portraits-img1.jpg" alt="" />
@@ -63,9 +116,15 @@
             Whatsapp: 06-34113069<br />
           </p>
           <div class="footer-icons">
-            <i class="fab fa-facebook-square fa-3x"></i>
-            <i class="fab fa-instagram-square fa-3x"></i>
-            <i class="fas fa-envelope fa-3x"></i>
+            <a href="https://www.facebook.com/CafeMomferDeMol" target="_blank"
+              ><i class="fab fa-facebook-square fa-4x"></i
+            ></a>
+            <a href="https://www.instagram.com/cafemomfer/" target="_blank"
+              ><i class="fab fa-instagram-square fa-4x"></i
+            ></a>
+            <a href="mailto:info@cafemomfer.nl" target="_blank"
+              ><i class="fas fa-envelope fa-4x"></i
+            ></a>
           </div>
         </div>
         <div class="main-footer-right">

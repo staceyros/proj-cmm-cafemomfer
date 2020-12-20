@@ -21,8 +21,46 @@
       media="screen and (max-width: 1024px)"
       href="css/mobile.css"
     />
+    <link rel="stylesheet" href="css/menu.css" />
   </head>
   <body>
+    <!--Hamburger menu-->
+    <div class="hamburger-menu-wrap">
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="nieuws.html">Nieuws</a></li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1WG3PXPMnQaCkfyw_FdsMcOnqknGAHD-O/view?usp=sharing"
+                  target="_blank"
+                  >Eten</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1wq8uRe6ZG0K9h-sEi9Kdtm-ClIg9o_ak/view?usp=sharing"
+                  target="_blank"
+                  >Drinken</a
+                >
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="covid19.html">Covid-19</a></li>
+              <li>
+                <a href="webshop.html"
+                  >Webshop <i class="fas fa-shopping-cart fa-1x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header with navbar -->
     <header>
       <nav class="main-nav">
         <a href="index.html">
@@ -31,8 +69,14 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="nieuws.html">Nieuws</a></li>
-          <li><a href="eten.html">Eten</a></li>
-          <li><a href="drinken.html">Drinken</a></li>
+          <li><a
+            href="https://drive.google.com/file/d/1WG3PXPMnQaCkfyw_FdsMcOnqknGAHD-O/view?usp=sharing"
+            target="_blank"
+            >Eten</a></li>
+          <li><a
+            href="https://drive.google.com/file/d/1wq8uRe6ZG0K9h-sEi9Kdtm-ClIg9o_ak/view?usp=sharing"
+            target="_blank"
+            >Drinken</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="covid19.html">Covid-19</a></li>
           <li>
@@ -42,14 +86,79 @@
           </li>
         </ul>
       </nav>
-      <section class="content">
+      <!-- <section class="content">
           <img id="under-construction" src="/img/under-construction.png" alt="">
+      </section> -->
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>Café Momfer de Mol is dagelijks tijdens openingstijden te bereiken per telefoon en doorlopend via Whatsapp en e-mail. </p>
+        <div class="portraits"><img src="/img/portraits-img1.jpg" alt="" />
+          <img src="/img/portraits-img2.jpg" alt="" />
+          <img src="/img/portraits-img3.jpg" alt="" />
+          <img src="/img/portraits-img4.JPEG" alt="" />
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-content contact-content-1">
+            <p>
+              <span class="heading">Adres</span><br><br>
+              Oude Molstraat 19<br>
+	            2513 BA Den Haag<br>
+              <br>
+              Telefoon: 070-4278733<br>
+              <br>
+              Whatsapp: 06-34113069<br>
+              <br>
+              E-mail: <a href="mailto:info@cafemomfer.nl" target="_blank"
+              >info@cafemomfer.nl</a>
+            </p>
+          </div>
+          <div class="contact-content contact-content-2">
+            <p>
+              <span class="heading">Openingstijden</span><br><br>
+              Maandag - Vrijdag:<br>
+			        16:00 - 21:00<br>
+              <br>
+			        Zaterdag & Zondag:<br>
+              14:00 - 21:00<br><br>
+              Voor zover de coronamaatregelen het toelaten, is Café Momfer de Mol
+              alle dagen van het jaar geopend.
+            </p>
+          </div>
+          <div class="contact-content contact-content-3">
+            <p>
+              Café Momfer de Mol is prima te bereiken met het OV en ligt op loopafstand van tramhalte Gravenstraat (3min.) en Buitenhof (4min.) en bushalte Kneuterdijk (6min.).<br><br>
+              Komt u met de fiets? U kunt uw fiets bewaakt stallen bij<br><a href="https://www.biesieklette.nl/stallingen/nobelstraat/" target="_blank">Biesieklette Nobelstraat</a>.<br><br>
+              Komt u met de auto? Geen probleem, ook voor de Bob is er bij ons genoeg keus. U kunt uw auto zolang parkeren bij<br><a href="https://www.q-park.nl/nl-nl/parkeren/den-haag/torengarage/" target="_blank">Q-park Torengarage</a>.
+            </p>
+          </div>
+          <div class="contact-content contact-content-4">
+            <div style="width: 100%">
+              <iframe
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=nl&amp;q=Oude%20Molstraat%2019+(Cafe%20Momfer%20de%20Mol)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                width="100%"
+                height="600"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <h3>Volg ons op onze socials!</h3><br>
+            <div class="contact-socials-buttons">
+              <a href="https://www.instagram.com/cafemomfer/" target="_blank" class="button"><i class="fab fa-instagram-square fa-2x"></i> Instagram</a>
+              <a href="https://www.facebook.com/CafeMomferDeMol" target="_blank" class="button"><i class="fab fa-facebook-square fa-2x"></i> Facebook</a>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="portraits">
-        <img src="/img/portraits-img1.jpg" alt="" />
-        <img src="/img/portraits-img2.jpg" alt="" />
-        <img src="/img/portraits-img3.jpg" alt="" />
-        <img src="/img/portraits-img4.JPEG" alt="" />
+      <section class="portraits-color">
+        <img src="/img/portraits-color-1.jpg" alt="" />
+        <img src="/img/portraits-color-2.jpg" alt="" />
+        <img src="/img/portraits-color-3.jpg" alt="" />
+        <img src="/img/portraits-color-4.jpg" alt="" />
+        <img src="/img/portraits-color-5.jpg" alt="" />
       </section>
       <footer class="footer">
         <div class="main-footer-left">
@@ -63,9 +172,15 @@
             Whatsapp: 06-34113069<br />
           </p>
           <div class="footer-icons">
-            <i class="fab fa-facebook-square fa-3x"></i>
-            <i class="fab fa-instagram-square fa-3x"></i>
-            <i class="fas fa-envelope fa-3x"></i>
+            <a href="https://www.facebook.com/CafeMomferDeMol" target="_blank"
+              ><i class="fab fa-facebook-square fa-4x"></i
+            ></a>
+            <a href="https://www.instagram.com/cafemomfer/" target="_blank"
+              ><i class="fab fa-instagram-square fa-4x"></i
+            ></a>
+            <a href="mailto:info@cafemomfer.nl" target="_blank"
+              ><i class="fas fa-envelope fa-4x"></i
+            ></a>
           </div>
         </div>
         <div class="main-footer-right">

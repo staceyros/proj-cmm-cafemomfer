@@ -31,7 +31,6 @@ h3 {
   text-shadow: 4px 4px 8px #000000;
   margin: 2rem 0rem;
 }
-/* Utilities */
 
 .hamburger-menu-wrap {
   display: block;
@@ -40,6 +39,7 @@ h3 {
   left: 0;
   z-index: 4;
 }
+/* Utilities */
 
 .button {
   display: inline-block;
@@ -58,6 +58,16 @@ h3 {
   font-size: 3rem;
   color: var(--dark-color);
   background: var(--orangy);
+}
+
+.heading {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+  color: var(--orangy);
+  text-align: center;
+  text-shadow: 4px 4px 8px #000000;
+  margin: 2rem 0rem;
 }
 
 /* Nav */
@@ -81,18 +91,7 @@ h3 {
 
 .main-nav ul {
   display: none;
-  /* align-items: center;
-  justify-content: end;
-  font-family: "Prompt", sans-serif;
-  font-weight: 500;
-  text-shadow: 1px 1px 2px #000000; */
 }
-
-/* .main-nav ul li a:hover {
-  color: #fff;
-  text-decoration: underline;
-  transition-timing-function: ease-in-out;
-} */
 
 .main-nav img {
   width: 47%;
@@ -256,37 +255,8 @@ h3 {
 
 /* Reservations */
 
-/* .reservations {
-    display: flex;
-    background-color: var(--red-dark);
-  }
-  
-  .reservations p {
-    color: var(--orangy);
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
-    margin: 6rem 4rem;
-    text-align: center;
-  }
-  
-  .main-reservations-info {
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-  }
-  
-  .main-reservation-info a {
-    margin: 0px auto;
-  }
-  
-  .main-reservation-map img {
-    width: 50vw;
-  } */
-
 .reservation {
-  display: flex;
+  display: inline-block;
 }
 
 .menu-item5 {
@@ -312,7 +282,123 @@ h3 {
 
 .menu-item6 img {
   width: 100%;
-  border: 10px solid var(--red-dark);
+  border: 15px solid var(--red-dark);
+}
+
+/* News */
+
+.news-main {
+  margin-top: 62px;
+  background-image: linear-gradient(var(--dark-color), var(--grey));
+}
+
+.news-article {
+  display: block;
+  width: 80vw;
+  margin: auto;
+}
+
+.news-article img {
+  width: 100%;
+  display: block;
+  padding: 2rem;
+}
+
+.news-article p {
+  text-align: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: var(--orangy);
+  font-family: "Open Sans", sans-serif;
+  padding: 2rem;
+}
+
+/* Contact */
+
+.contact {
+  margin-top: 62px;
+  background-image: linear-gradient(var(--dark-color), var(--grey));
+}
+
+.contact h2 {
+  font-family: "lobster", cursive;
+  font-size: 8rem;
+  color: var(--orangy);
+  text-align: center;
+  text-shadow: 4px 4px 8px #000000;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--orangy);
+  font-family: "Open Sans", sans-serif;
+  padding: 6rem;
+}
+
+.contact-wrapper {
+  width: 100vw;
+}
+
+.contact-content {
+  width: 100vw;
+  background-image: linear-gradient(var(--dark-color), var(--grey));
+}
+
+.contact-content a {
+  font-size: 1.6rem;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-content p {
+  text-align: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: var(--orangy);
+  font-family: "Open Sans", sans-serif;
+  text-shadow: 1px 1px 4px #000000;
+  margin: 5rem;
+}
+
+.contact-content-2 {
+  background-image: linear-gradient(var(--bordeaux), var(--red-dark));
+}
+
+.contact-content-4 {
+  border: 8px solid var(--dark-color);
+}
+
+.contact-content-4 a {
+  font-size: 2rem;
+  padding: 6rem 4rem;
+}
+
+.contact-socials {
+  width: 100vw;
+  height: 270px;
+  background-image: linear-gradient(var(--bordeaux), var(--red-dark));
+}
+
+.contact-socials .button:hover {
+  font-size: 3rem;
+  color: var(--dark-color);
+  background: var(--orangy);
+}
+
+.contact-socials-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-socials-buttons a {
+  margin: 3rem;
+}
+
+/* Webshop */
+
+.webshop {
+  margin-top: 62px;
 }
 
 /* Footer */
@@ -322,6 +408,12 @@ h3 {
   background: var(--dark-color);
   color: var(--orangy);
   font-family: "Open Sans", sans-serif;
+}
+
+.footer h3 {
+  font-size: 3rem;
+  text-align: left;
+  margin-left: 3rem;
 }
 
 .main-footer-left {
